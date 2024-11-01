@@ -1,0 +1,174 @@
+.banner-img {
+    width: 100%;
+    mask-image: linear-gradient(to top right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to top right, transparent, black 75%);
+}
+
+.hero-caption {
+    padding-left: 6%;
+}
+
+.caption-img {
+    width: 90%;
+    max-width: 420px;
+}
+
+.hero-btns .btn img {
+    width: 25px;
+}
+
+.hero-btns .btn {
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btns .dark-btn {
+    background: #6d6d6eb3;
+}
+
+.hero-btns .btn:hover {
+    background: #ffffffbf;
+}
+
+.hero-btns .dark-btn:hover {
+    background: #6d6d6e66;
+}
+
+.more-cards {
+    padding-left: 6%;
+}
+
+@media (max-width: 1200px) {
+    .hero-caption {
+        padding-left: 6%;
+    }
+    
+    .caption-img {
+        width: 50%;
+        max-width: 250px;
+    }
+
+    .hero-caption p {
+        font-size: 0.9em;
+        max-width: 70%;
+    }
+
+    .hero-btns .btn {
+        padding: 6px 14px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .hero-caption {
+        padding-left: 6%;
+    }
+    
+    .caption-img {
+        width: 20%;
+    }
+
+    .hero-caption p {
+        font-size: 0.8em;
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .hero-btns .btn img {
+        width: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-caption {
+        padding-left: 4%;
+    }
+
+    .caption-img {
+        width: 50%;
+    }
+
+    .hero-caption p {
+        font-size: 0.9em;
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .hero-btns .btn img {
+        width: 18px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .banner-img {
+        width: 100%;
+        mask-image: linear-gradient(to top right, transparent, black 75%);
+        -webkit-mask-image: linear-gradient(to top right, transparent, black 75%);
+    }
+    
+    .hero-caption {
+        padding-left: 6%;
+    }
+    
+    .caption-img {
+        width: 27%;
+        max-width: 420px;
+    }
+
+    .hero-caption p {
+        font-size: 0.8em;
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .hero-btns .btn img {
+        width: 17px;
+    }
+    
+    .hero-btns .btn {
+        padding: 8px 20px;
+        gap: 8px;
+        font-size: 13px;
+    }
+    
+    .hero-btns {
+        margin-bottom: 0;
+    } 
+    
+}
+
+@media (max-width: 480px) {
+
+    .caption-img {
+        width: 50%;
+        max-width: 420px;
+    }
+
+    .hero-caption p {
+        display: none;
+    }
+    
+    .hero-btns .btn img {
+        width: 18px;
+    }
+    
+    .hero-btns .btn {
+        padding: 5px 10px;
+        gap: 5px;
+        font-size: 13px;
+    }
+    
+    .hero-btns {
+        margin-bottom: 0;
+    } 
+    
+}

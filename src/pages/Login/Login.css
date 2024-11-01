@@ -1,0 +1,121 @@
+.login {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#0000007e, #0000007e), url(/background_banner.jpg);
+}
+
+.login img {
+    width: 150px;
+}
+
+.form-div {
+    background: rgba(0, 0, 0, 0.67);
+    padding: 60px 70px;
+}
+
+.login-form input {
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.41);
+    border: 1px solid #717171;
+}
+
+
+.custom-checkbox {
+    width: 18px;
+    height: 18px;
+    appearance: none;
+    background-color: #0000009a;
+    border: 1px solid #696969;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .custom-checkbox:hover {
+    border: 1px solid #d1d5db;
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #fff;
+    border-color: #000;
+  }
+  
+  .custom-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .login-spinner img {
+    width: 60px;
+  }
+
+@media (max-width: 1024px) {
+    .login {
+        padding: 15px 50px;
+    }
+
+    .form-div {
+        padding: 40px 30px;
+    }
+
+    .form-part {
+        padding: 20px;
+    }
+
+    .login img {
+        width: 120px;
+    }
+
+    .login-form input {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login {
+        padding: 15px 30px;
+    }
+
+    .form-div {
+        padding: 30px 20px;
+    }
+
+    .login img {
+        width: 100px;
+    }
+
+    .login-form input {
+        padding: 8px;
+    }
+
+    .custom-checkbox {
+        width: 16px;
+        height: 16px;
+    }
+
+    .custom-checkbox:checked::after {
+        left: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .login {
+        padding: 15px 20px;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+}
