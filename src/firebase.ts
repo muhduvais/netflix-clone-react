@@ -22,13 +22,13 @@ interface FirebaseConfig {
   appId: string;
 }
 
-const firebaseConfig: FirebaseConfig = {
-  apiKey: "AIzaSyAnEi_JLA3DDhg_iCjTrp9tXtjujIbcQ3k",
-  authDomain: "netflix-clone-3a636.firebaseapp.com",
-  projectId: "netflix-clone-3a636",
-  storageBucket: "netflix-clone-3a636.appspot.com",
-  messagingSenderId: "656848152003",
-  appId: "1:656848152003:web:d955bb651a207500854976"
+const firebaseConfig = {
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
